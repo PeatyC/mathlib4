@@ -24,14 +24,14 @@ package mathlib where
 -/
 
 meta if get_config? doc = some "on" then -- do not download and build doc-gen4 by default
-require «doc-gen4» from git "https://github.com/leanprover/doc-gen4" @ "main"
+require «doc-gen4» from git "https://github.com/leanprover/doc-gen4" @ "bump_to_v4.9.0"
 
-require batteries from git "https://github.com/leanprover-community/batteries" @ "main"
-require Qq from git "https://github.com/leanprover-community/quote4" @ "master"
-require aesop from git "https://github.com/leanprover-community/aesop" @ "master"
+require batteries from git "https://github.com/leanprover-community/batteries" @ "bump/v4.9.0"
+require Qq from git "https://github.com/leanprover-community/quote4" @ "bump/v4.9.0"
+require aesop from git "https://github.com/leanprover-community/aesop" @ "8a2b60ac1d3e5b6295abc5ca07b9473594c3bcb1"
 require proofwidgets from git "https://github.com/leanprover-community/ProofWidgets4" @ "v0.0.36"
-require Cli from git "https://github.com/leanprover/lean4-cli" @ "main"
-require importGraph from git "https://github.com/leanprover-community/import-graph.git" @ "main"
+require Cli from git "https://github.com/leanprover/lean4-cli" @ "039d23aebf2ccb980bc86e93179e7e340f99b4f0"
+require importGraph from git "https://github.com/leanprover-community/import-graph.git" @ "bump_to_v4.9.0"
 require REPL from git "https://github.com/xinhjBrant/repl.git" @ "deepseek"
 
 /-!
